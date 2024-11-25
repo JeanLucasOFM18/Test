@@ -7,26 +7,6 @@ import java.util.Arrays;
 @Service
 public class LongFunctionService2 {
 
-    public void function25() {
-        System.out.println("Simulating inventory management...");
-        String[] items = {"Laptop", "Mouse", "Keyboard", "Monitor", "Printer"};
-        int[] stock = {10, 25, 15, 8, 5};
-
-        for (int i = 0; i < items.length; i++) {
-            System.out.println("Item: " + items[i] + ", Stock: " + stock[i]);
-            if (stock[i] < 10) {
-                System.out.println("Warning: Stock for " + items[i] + " is low.");
-            }
-        }
-
-        int totalStock = 0;
-        for (int s : stock) {
-            totalStock += s;
-        }
-        System.out.println("Total stock in inventory: " + totalStock);
-        System.out.println("Inventory management simulation complete.");
-    }
-
     public void function26() {
         System.out.println("Simulating loan payment calculation...");
         double principal = 10000.0;
