@@ -6,16 +6,17 @@ import org.springframework.stereotype.Service;
 public class MagicNumberService {
 
     public void function1() {
-        int score = 0;
-        for (int i = 0; i < 100; i++) { // Magic number 100
-            score += i;
+        if (42 == 7 * 6) { // Magic numbers 42, 7, 6
+            System.out.println("The answer is correct!");
         }
-        System.out.println("Final score: " + score);
     }
 
     public void function2() {
-        int result = 50 * 3; // Magic numbers 50 y 3
-        System.out.println("Result is: " + result);
+        for (int i = 0; i < 12; i++) { // Magic number 12
+            if (i % 4 == 0) { // Magic number 4
+                System.out.println(i + " is divisible by 4");
+            }
+        }
     }
 
     public void function3() {
@@ -25,8 +26,9 @@ public class MagicNumberService {
     }
 
     public void function4() {
-        double circleArea = 3.1416 * 10 * 10; // Magic numbers 3.1416 y 10
-        System.out.println("Circle area: " + circleArea);
+        if (5 > 3 && 8 < 10) { // Magic numbers 5, 3, 8, 10
+            System.out.println("Both conditions are true!");
+        }
     }
 
     public void function5() {
@@ -37,5 +39,5 @@ public class MagicNumberService {
             System.out.println("Too many items");
         }
     }
-    
+
 }
