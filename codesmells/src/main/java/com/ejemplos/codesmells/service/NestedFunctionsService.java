@@ -71,11 +71,11 @@ public class NestedFunctionsService {
     }
 
     public void function6() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 6.");
 
         class InnerFunction6 {
             public void innerMethod6() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 6.");
             }
         }
 
@@ -84,11 +84,11 @@ public class NestedFunctionsService {
     }
 
     public void function7() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 7.");
 
         class InnerFunction7 {
             public void innerMethod7() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 7.");
             }
         }
 
@@ -97,11 +97,11 @@ public class NestedFunctionsService {
     }
 
     public void function8() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 8.");
 
         class InnerFunction8 {
             public void innerMethod8() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 8.");
             }
         }
 
@@ -110,11 +110,11 @@ public class NestedFunctionsService {
     }
 
     public void function9() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 9.");
 
         class InnerFunction9 {
             public void innerMethod9() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 9.");
             }
         }
 
@@ -123,11 +123,11 @@ public class NestedFunctionsService {
     }
 
     public void function10() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 10.");
 
         class InnerFunction10 {
             public void innerMethod10() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 10.");
             }
         }
 
@@ -136,11 +136,11 @@ public class NestedFunctionsService {
     }
 
     public void function11() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 11.");
 
         class InnerFunction11 {
             public void innerMethod11() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 11.");
             }
         }
 
@@ -149,11 +149,11 @@ public class NestedFunctionsService {
     }
 
     public void function12() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 12.");
 
         class InnerFunction12 {
             public void innerMethod12() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 12.");
             }
         }
 
@@ -162,11 +162,11 @@ public class NestedFunctionsService {
     }
 
     public void function13() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 13.");
 
         class InnerFunction13 {
             public void innerMethod13() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 13.");
             }
         }
 
@@ -175,11 +175,11 @@ public class NestedFunctionsService {
     }
 
     public void function14() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 14.");
 
         class InnerFunction14 {
             public void innerMethod14() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 14.");
             }
         }
 
@@ -188,11 +188,11 @@ public class NestedFunctionsService {
     }
 
     public void function15() {
-        System.out.println("Outer function 5.");
+        System.out.println("Outer function 15.");
 
         class InnerFunction15 {
             public void innerMethod15() {
-                System.out.println("Inner function 5.");
+                System.out.println("Inner function 15.");
             }
         }
 
