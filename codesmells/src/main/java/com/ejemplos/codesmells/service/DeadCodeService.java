@@ -56,8 +56,8 @@ public class DeadCodeService {
     }
 
     public void function11() {
-        int lol = 5;
-        System.out.println("No usage 8.");
+        int count = 10;
+        System.out.println("No usage 48.");
     }
 
     public void function12() {
@@ -91,8 +91,8 @@ public class DeadCodeService {
     }
 
     public void function18() {
-        int count = 200;
-        System.out.println("No usage 15.");
+        double discount = 15.5;
+        System.out.println("No usage 49.");
     }
 
     public void function19() {
