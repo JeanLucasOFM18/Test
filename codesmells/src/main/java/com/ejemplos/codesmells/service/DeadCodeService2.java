@@ -31,8 +31,8 @@ public class DeadCodeService2 {
     }
 
     public void function31() {
-        int score = 100;
-        System.out.println("No usage 28.");
+        int quantity = 50;
+        System.out.println("No usage 62.");
     }
 
     public void function32() {
