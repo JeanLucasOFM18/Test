@@ -19,37 +19,37 @@ public class DeadCodeService {
 
     public void function4() {
         boolean flag = true;
-        System.out.println("No usage.");
+        System.out.println("No usage 1.");
     }
 
     public void function5() {
         int count = 5;
-        System.out.println("No usage.");
+        System.out.println("No usage 2.");
     }
 
     public void function6() {
         String name = "Java";
-        System.out.println("No usage.");
+        System.out.println("No usage 3.");
     }
 
     public void function7() {
         double sum = 3.5;
-        System.out.println("No usage.");
+        System.out.println("No usage 4.");
     }
 
     public void function8() {
         long number = 1000000L;
-        System.out.println("No usage.");
+        System.out.println("No usage 5.");
     }
 
     public void function9() {
         int unusedVariable = 20;
-        System.out.println("No usage.");
+        System.out.println("No usage 6.");
     }
 
     public void function10() {
         char symbol = 'A';
-        System.out.println("No usage.");
+        System.out.println("No usage 7.");
     }
 
 
