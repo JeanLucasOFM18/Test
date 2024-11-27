@@ -71,10 +71,12 @@ public class DuplicateCodeService2 {
     }
 
     public void function35() {
-        if (5 > 3) {
+        int a = 5;
+        int b = 3;
+        if (a > b) {
             System.out.println("Condition met.");
         }
-        if (5 > 3) {
+        if (a > b) {
             System.out.println("Condition met.");
         }
     }
@@ -143,10 +145,12 @@ public class DuplicateCodeService2 {
     }
 
     public void function45() {
-        if (10 == 10) {
+        int a = 10;
+        int b = 10;
+        if (a == b) {
             System.out.println("Equality confirmed.");
         }
-        if (10 == 10) {
+        if (a == b) {
             System.out.println("Equality confirmed.");
         }
     }

@@ -117,8 +117,7 @@ public class DuplicateCodeService {
         int a = 5, b = 15;
         int sum = a + b;
         System.out.println("Sum is: " + sum);
-        int sumAgain = a + b;
-        System.out.println("Sum is: " + sumAgain);
+        System.out.println("Sum is: " + sum);
     }
 
     public void function17() {
@@ -135,13 +134,9 @@ public class DuplicateCodeService {
     }
 
     public void function19() {
-        int[] numbers = {1, 2, 3};
-        for (int num : numbers) {
-            System.out.println("Number: " + num);
-        }
-        for (int num : numbers) {
-            System.out.println("Number: " + num);
-        }
+        int num = 2;
+        System.out.println("Number: " + num);
+        System.out.println("Number: " + num);
     }
 
     public void function20() {
@@ -179,10 +174,13 @@ public class DuplicateCodeService {
     }
 
     public void function25() {
-        if (1 + 1 == 2) {
+        int a = 2;
+        int b = 1;
+        int c = 3;
+        if (b + a == c) {
             System.out.println("Math is correct.");
         }
-        if (1 + 1 == 2) {
+        if (b + a == c) {
             System.out.println("Math is correct.");
         }
     }
