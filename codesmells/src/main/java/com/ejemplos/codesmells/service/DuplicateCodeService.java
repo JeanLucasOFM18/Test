@@ -76,4 +76,115 @@ public class DuplicateCodeService {
         }
     }
 
+    public void function11() {
+        int value = 42;
+        System.out.println("The value is: " + value);
+        System.out.println("The value is: " + value);
+    }
+
+    public void function12() {
+        for (int i = 0; i < 2; i++) {
+            System.out.println("Loop iteration: " + i);
+        }
+        for (int i = 0; i < 2; i++) {
+            System.out.println("Loop iteration: " + i);
+        }
+    }
+
+    public void function13() {
+        System.out.println("Logging in...");
+        System.out.println("Welcome!");
+        System.out.println("Logging in...");
+        System.out.println("Welcome!");
+    }
+
+    public void function14() {
+        String greeting = "Hi there!";
+        System.out.println(greeting);
+        System.out.println(greeting);
+    }
+
+    public void function15() {
+        if (true) {
+            System.out.println("Success!");
+        }
+        if (true) {
+            System.out.println("Success!");
+        }
+    }
+
+    public void function16() {
+        int a = 5, b = 15;
+        int sum = a + b;
+        System.out.println("Sum is: " + sum);
+        int sumAgain = a + b;
+        System.out.println("Sum is: " + sumAgain);
+    }
+
+    public void function17() {
+        String message = "Error detected!";
+        System.out.println(message);
+        System.out.println(message);
+    }
+
+    public void function18() {
+        System.out.println("Initiating sequence...");
+        System.out.println("Sequence active.");
+        System.out.println("Initiating sequence...");
+        System.out.println("Sequence active.");
+    }
+
+    public void function19() {
+        int[] numbers = {1, 2, 3};
+        for (int num : numbers) {
+            System.out.println("Number: " + num);
+        }
+        for (int num : numbers) {
+            System.out.println("Number: " + num);
+        }
+    }
+
+    public void function20() {
+        int x = 10;
+        System.out.println("Value: " + x);
+        System.out.println("Value: " + x);
+    }
+
+    public void function21() {
+        System.out.println("Checking system status...");
+        System.out.println("System is online.");
+        System.out.println("Checking system status...");
+        System.out.println("System is online.");
+    }
+
+    public void function22() {
+        int a = 3, b = 7;
+        System.out.println("Product: " + (a * b));
+        System.out.println("Product: " + (a * b));
+    }
+
+    public void function23() {
+        String error = "Connection lost!";
+        System.out.println(error);
+        System.out.println(error);
+    }
+
+    public void function24() {
+        for (int i = 1; i <= 2; i++) {
+            System.out.println("Running operation " + i);
+        }
+        for (int i = 1; i <= 2; i++) {
+            System.out.println("Running operation " + i);
+        }
+    }
+
+    public void function25() {
+        if (1 + 1 == 2) {
+            System.out.println("Math is correct.");
+        }
+        if (1 + 1 == 2) {
+            System.out.println("Math is correct.");
+        }
+    }
+
 }
