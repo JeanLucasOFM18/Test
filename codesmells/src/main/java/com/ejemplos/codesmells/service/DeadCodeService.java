@@ -26,12 +26,12 @@ public class DeadCodeService {
     }
 
     public void function5() {
-        int count = 5;
+        int counter = 5;
         System.out.println("No usage 2.");
     }
 
     public void function6() {
-        String name = "Java";
+        String gameboy = "Java";
         System.out.println("No usage 3.");
     }
 
@@ -86,12 +86,12 @@ public class DeadCodeService {
     }
 
     public void function17() {
-        byte level = 127;
+        int level = 127;
         System.out.println("No usage 14.");
     }
 
     public void function18() {
-        short count = 200;
+        int count = 200;
         System.out.println("No usage 15.");
     }
 
@@ -106,7 +106,7 @@ public class DeadCodeService {
     }
 
     public void function21() {
-        int age = 30;
+        char lolero = 'H';
         System.out.println("No usage 18.");
     }
 

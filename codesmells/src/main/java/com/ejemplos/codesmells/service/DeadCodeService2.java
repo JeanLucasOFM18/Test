@@ -11,17 +11,17 @@ public class DeadCodeService2 {
     }
 
     public void function27() {
-        byte temperature = 40;
+        int temperature = 40;
         System.out.println("No usage 24.");
     }
 
     public void function28() {
-        short distance = 1000;
+        int distance = 1000;
         System.out.println("No usage 25.");
     }
 
     public void function29() {
-        double speed = 55.8;
+        int speed = 55;
         System.out.println("No usage 26.");
     }
 
@@ -61,12 +61,12 @@ public class DeadCodeService2 {
     }
 
     public void function37() {
-        byte level = 50;
+        int level = 50;
         System.out.println("No usage 34.");
     }
 
     public void function38() {
-        short ageLimit = 18;
+        int ageLimit = 18;
         System.out.println("No usage 35.");
     }
 
@@ -76,12 +76,12 @@ public class DeadCodeService2 {
     }
 
     public void function40() {
-        char type = 'X';
+        int type = 20;
         System.out.println("No usage 37.");
     }
 
     public void function41() {
-        int temperature = 25;
+        int futbol = 25;
         System.out.println("No usage 38.");
     }
 
@@ -111,12 +111,12 @@ public class DeadCodeService2 {
     }
 
     public void function47() {
-        byte rating = 5;
+        int rating = 5;
         System.out.println("No usage 44.");
     }
 
     public void function48() {
-        short duration = 30;
+        int duration = 30;
         System.out.println("No usage 45.");
     }
 
@@ -126,7 +126,7 @@ public class DeadCodeService2 {
     }
 
     public void function50() {
-        char level = 'B';
+        int levelpass = 20;
         System.out.println("No usage 47.");
     }
 
