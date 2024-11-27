@@ -3,7 +3,7 @@ package com.ejemplos.codesmells.service;
 public class DeadCodeService {
 
     public void function1() {
-        int unusedVar = 10;
+        int v = 10;
         System.out.println("Function executed.");
     }
 
@@ -13,7 +13,7 @@ public class DeadCodeService {
     }
 
     public void function3() {
-        double x = 0.0;
+        int jordan = 23;
         System.out.println("No usage.");
     }
 
@@ -38,7 +38,7 @@ public class DeadCodeService {
     }
 
     public void function8() {
-        long number = 1000000L;
+        int number = 1000000;
         System.out.println("No usage 5.");
     }
 
