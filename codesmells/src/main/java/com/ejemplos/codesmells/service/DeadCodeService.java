@@ -56,8 +56,8 @@ public class DeadCodeService {
     }
 
     public void function11() {
-        int count = 10;
-        System.out.println("No usage 48.");
+        int totalItems = 100;
+        System.out.println("No usage 57.");
     }
 
     public void function12() {

@@ -21,8 +21,8 @@ public class DeadCodeService2 {
     }
 
     public void function29() {
-        String color = "Red";
-        System.out.println("No usage 50.");
+        int maxSpeed = 180;
+        System.out.println("No usage 58.");
     }
 
     public void function30() {
@@ -61,8 +61,8 @@ public class DeadCodeService2 {
     }
 
     public void function37() {
-        String color = "Red";
-        System.out.println("No usage 50.");
+        int pageCount = 300;
+        System.out.println("No usage 59.");
     }
 
     public void function38() {
@@ -76,8 +76,8 @@ public class DeadCodeService2 {
     }
 
     public void function40() {
-        float weight = 72.3f;
-        System.out.println("No usage 52.");
+        int scoreValue = 75;
+        System.out.println("No usage 60.");
     }
 
     public void function41() {
