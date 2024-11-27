@@ -32,4 +32,15 @@ public class ManyCommentsService2 {
         // Returning a fixed greeting message
         return "Hello, World!";
     }
+
+    // A simple method that returns a greeting message1
+    // A simple method that returns a greeting message2
+    // A simple method that returns a greeting message3
+    // A simple method that returns a greeting message4
+    // A simple method that returns a greeting message5
+    // A simple method that returns a greeting message6
+    // A simple method that returns a greeting message7
+    // A simple method that returns a greeting message8
+    // A simple method that returns a greeting message9
+    // A simple method that returns a greeting message0
 }
