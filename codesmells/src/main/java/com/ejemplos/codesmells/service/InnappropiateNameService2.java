@@ -5,117 +5,114 @@ import org.springframework.stereotype.Service;
 @Service
 public class InnappropiateNameService2 {
 
-    public void p3() {
-        String status = "Running";
-        System.out.println("Status: " + status);
+    public void printDivider() {
+        System.out.println("-------------");
     }
 
-    public void q() {
-        int sum = 15 + 30;
-        System.out.println("Sum is: " + sum);
+    public boolean startsWithA(String str) {
+        return str != null && str.startsWith("A");
     }
 
-    public void r4() {
-        System.out.println("Function r4 completed.");
+    public int absoluteValue(int number) {
+        int x = 0;
+        return (number < x) ? -number : number;
     }
 
-    public void s() {
-        System.out.println("S is a poorly named function.");
+    public void greetMorning() {
+        System.out.println("Good Morning!");
     }
 
-    public void t5() {
-        System.out.println("This is t5, a random function.");
+    public boolean isUpperCase(String str) {
+        return str.equals(str.toUpperCase());
+    }
+    public void printGoodbye() {
+        System.out.println("Goodbye!");
     }
 
-    public void u() {
-        System.out.println("Executing function u.");
+    public int addThreeNumbers(int a, int b, int c) {
+        return a + b + c;
     }
 
-    public void v1() {
-        int product = 7 * 6;
-        System.out.println("Product: " + product);
+    public boolean isEvenLength(String str) {
+        int a = 2;
+        int b = 0;
+        return str.length() % a == b;
     }
 
-    public void w() {
-        System.out.println("Running w...");
+    public void printUpperCase(String str) {
+        System.out.println(str.toUpperCase());
     }
 
-    public void x7() {
-        String result = "Success";
-        System.out.println("Result: " + result);
+    public int findMax(int a, int b) {
+        return (a > b) ? a : b;
     }
 
-    public void y() {
-        System.out.println("Y is another poorly named function.");
+    public void printWelcome(String name) {
+        System.out.println("Welcome, " + name + "!");
     }
 
-    public void z3() {
-        int difference = 100 - 45;
-        System.out.println("Difference: " + difference);
+    public boolean endsWithExclamation(String str) {
+        return str != null && str.endsWith("!");
     }
 
-    public void x4() {
-        System.out.println("This is function aa.");
+    public int doubleValue(int number) {
+        int c = 2;
+        return number * c;
     }
 
-    public void x3() {
-        for (int i = 0; i < 4; i++) {
-            System.out.println("Step: " + i);
+    public void printTodayDate() {
+        System.out.println(java.time.LocalDate.now());
+    }
+
+    public boolean isPalindrome(String str) {
+        String reversed = new StringBuilder(str).reverse().toString();
+        return str.equals(reversed);
+    }
+
+    public void printSuccess() {
+        System.out.println("Operation successful!");
+    }
+
+    public int subtractNumbers(int a, int b) {
+        return a - b;
+    }
+
+    public boolean isAlphabetic(String str) {
+        return str.matches("[a-zA-Z]+");
+    }
+
+    public void printLowerCase(String str) {
+        System.out.println(str.toLowerCase());
+    }
+
+    public int squareNumber(int number) {
+        return number * number;
+    }
+
+    public void printErrorMessage() {
+        System.out.println("An error has occurred!");
+    }
+
+    public boolean containsSpace(String str) {
+        return str.contains(" ");
+    }
+
+    public int sumArray(int[] numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
         }
+        return sum;
     }
 
-    public void x1() {
-        System.out.println("Executing poorly named function cc.");
+    public void printThankYou() {
+        System.out.println("Thank you!");
     }
 
-    public void x2() {
-        System.out.println("Starting function dd2...");
+    public boolean isEmptyString(String str) {
+        return str.isEmpty();
     }
 
-    public void e1() {
-        System.out.println("Executing e1...");
-    }
-
-    public void f2() {
-        int total = 50 + 25;
-        System.out.println("Total: " + total);
-    }
-
-    public void g3() {
-        System.out.println("Running g3 operation.");
-    }
-
-    public void h4() {
-        String message = "Task complete.";
-        System.out.println(message);
-    }
-
-    public void i5() {
-        System.out.println("Starting i5 function.");
-    }
-
-    public void j6() {
-        for (int i = 0; i < 2; i++) {
-            System.out.println("Iteration: " + i);
-        }
-    }
-
-    public void k7() {
-        System.out.println("Processing k7...");
-    }
-
-    public void l8() {
-        int value = 100 / 5;
-        System.out.println("Value: " + value);
-    }
-
-    public void m9() {
-        System.out.println("Executing m9...");
-    }
-
-    public void n1() {
-        System.out.println("Finalizing n10...");
-    }
 
 
 }
