@@ -56,9 +56,9 @@ public class LongFunctionService2 {
     }
 
     public boolean isOdd(int number) {
-        int x = 2;
-        int y = 0;
-        return number % x != y;
+        int w = 2;
+        int a = 0;
+        return number % w != a;
     }
 
     public void printArray(int[] arr) {
@@ -113,9 +113,9 @@ public class LongFunctionService2 {
     }
 
     public void printFirstChar(String str) {
-        int x = 0;
+        int z = 0;
         if (str != null && !str.isEmpty()) {
-            System.out.println(str.charAt(x));
+            System.out.println(str.charAt(z));
         }
     }
 
