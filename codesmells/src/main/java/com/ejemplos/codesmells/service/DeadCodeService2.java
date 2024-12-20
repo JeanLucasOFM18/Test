@@ -5,129 +5,113 @@ import org.springframework.stereotype.Service;
 @Service
 public class DeadCodeService2 {
 
-    public void function26() {
-        int timestamp = 1680000000;
-        System.out.println("No usage 23.");
+    public void printDivider() {
+        System.out.println("-------------");
     }
 
-    public void function27() {
-        int temperature = 40;
-        System.out.println("No usage 24.");
+    public boolean startsWithA(String str) {
+        return str != null && str.startsWith("A");
     }
 
-    public void function28() {
-        int distance = 1000;
-        System.out.println("No usage 25.");
+    public int absoluteValue(int number) {
+        int x = 0;
+        return (number < x) ? -number : number;
     }
 
-    public void function29() {
-        int maxSpeed = 180;
-        System.out.println("No usage 58.");
+    public void greetMorning() {
+        System.out.println("Good Morning!");
     }
 
-    public void function30() {
-        char status = 'C';
-        System.out.println("No usage 27.");
+    public boolean isUpperCase(String str) {
+        return str.equals(str.toUpperCase());
+    }
+    public void printGoodbye() {
+        System.out.println("Goodbye!");
     }
 
-    public void function31() {
-        int quantity = 50;
-        System.out.println("No usage 62.");
+    public int addThreeNumbers(int a, int b, int c) {
+        return a + b + c;
     }
 
-    public void function32() {
-        double radius = 3.14;
-        System.out.println("No usage 29.");
+    public boolean isEvenLength(String str) {
+        int a = 2;
+        int b = 0;
+        return str.length() % a == b;
     }
 
-    public void function33() {
-        String country = "Canada";
-        System.out.println("No usage 30.");
+    public void printUpperCase(String str) {
+        System.out.println(str.toUpperCase());
     }
 
-    public void function34() {
-        boolean isEnabled = true;
-        System.out.println("No usage 31.");
+    public int findMax(int a, int b) {
+        return (a > b) ? a : b;
     }
 
-    public void function35() {
-        float pressure = 101.3f;
-        System.out.println("No usage 32.");
+    public void printWelcome(String name) {
+        System.out.println("Welcome, " + name + "!");
     }
 
-    public void function36() {
-        int accountNumber = 1234567890;
-        System.out.println("No usage 33.");
+    public boolean endsWithExclamation(String str) {
+        return str != null && str.endsWith("!");
     }
 
-    public void function37() {
-        int pageCount = 300;
-        System.out.println("No usage 59.");
+    public int doubleValue(int number) {
+        int c = 2;
+        return number * c;
     }
 
-    public void function38() {
-        int ageLimit = 18;
-        System.out.println("No usage 35.");
+    public void printTodayDate() {
+        System.out.println(java.time.LocalDate.now());
     }
 
-    public void function39() {
-        double weightLimit = 250.5;
-        System.out.println("No usage 36.");
+    public boolean isPalindrome(String str) {
+        String reversed = new StringBuilder(str).reverse().toString();
+        return str.equals(reversed);
     }
 
-    public void function40() {
-        int scoreValue = 75;
-        System.out.println("No usage 60.");
+    public void printSuccess() {
+        System.out.println("Operation successful!");
     }
 
-    public void function41() {
-        int futbol = 25;
-        System.out.println("No usage 38.");
+    public int subtractNumbers(int a, int b) {
+        return a - b;
     }
 
-    public void function42() {
-        double speedLimit = 120.0;
-        System.out.println("No usage 39.");
+    public boolean isAlphabetic(String str) {
+        return str.matches("[a-zA-Z]+");
     }
 
-    public void function43() {
-        String productName = "Laptop";
-        System.out.println("No usage 40.");
+    public void printLowerCase(String str) {
+        System.out.println(str.toLowerCase());
     }
 
-    public void function44() {
-        boolean isOnline = false;
-        System.out.println("No usage 41.");
+    public int squareNumber(int number) {
+        return number * number;
     }
 
-    public void function45() {
-        float volume = 50.5f;
-        System.out.println("No usage 42.");
+    public void printErrorMessage() {
+        System.out.println("An error has occurred!");
     }
 
-    public void function46() {
-        int itemCode = 987654321;
-        System.out.println("No usage 43.");
+    public boolean containsSpace(String str) {
+        return str.contains(" ");
     }
 
-    public void function47() {
-        int rating = 5;
-        System.out.println("No usage 44.");
+    public int sumArray(int[] numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
     }
 
-    public void function48() {
-        int duration = 30;
-        System.out.println("No usage 45.");
+    public void printThankYou() {
+        System.out.println("Thank you!");
     }
 
-    public void function49() {
-        double balance = 2500.75;
-        System.out.println("No usage 46.");
+    public boolean isEmptyString(String str) {
+        return str.isEmpty();
     }
 
-    public void function50() {
-        int levelpass = 20;
-        System.out.println("No usage 47.");
-    }
 
 }
