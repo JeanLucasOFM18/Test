@@ -16,7 +16,9 @@ public class LongFunctionService2 {
     }
 
     public boolean isEven(int number) {
-        return number % 2 == 0;
+        int x = 2;
+        int y = 0;
+        return number % x == y;
     }
 
     public void printMessage(String message) {
@@ -54,7 +56,9 @@ public class LongFunctionService2 {
     }
 
     public boolean isOdd(int number) {
-        return number % 2 != 0;
+        int x = 2;
+        int y = 0;
+        return number % x != y;
     }
 
     public void printArray(int[] arr) {
@@ -64,10 +68,11 @@ public class LongFunctionService2 {
     }
 
     public double divide(int a, int b) {
-        if (b != 0) {
+        int x = 0;
+        if (b != x) {
             return (double) a / b;
         }
-        return 0;
+        return x;
     }
 
     public void printGreeting(String name) {
@@ -87,7 +92,8 @@ public class LongFunctionService2 {
     }
 
     public double calculateAverage(int a, int b) {
-        return (a + b) / 2.0;
+        double x = 2.0;
+        return (a + b) / x;
     }
 
     public boolean isEmpty(String str) {
@@ -107,8 +113,9 @@ public class LongFunctionService2 {
     }
 
     public void printFirstChar(String str) {
+        int x = 0;
         if (str != null && !str.isEmpty()) {
-            System.out.println(str.charAt(0));
+            System.out.println(str.charAt(x));
         }
     }
 
